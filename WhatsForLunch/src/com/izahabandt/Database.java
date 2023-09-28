@@ -7,7 +7,7 @@ import java.util.List;
 public class Database {
 
     public static final String DB_NAME = "meals.db";
-    public static final String CONNECTION_STRING = "jdbc:sqlite:C:\\Users\\izabe\\Desktop\\JAVA\\WhatsForLunch\\" + DB_NAME;
+    public static final String CONNECTION_STRING = "jdbc:sqlite:C:\\Users\\izabe\\Desktop\\whats-for-lunch\\WhatsForLunch\\" + DB_NAME;
 
     private Connection conn;
     public boolean open() {
