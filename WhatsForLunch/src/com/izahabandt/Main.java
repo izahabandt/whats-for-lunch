@@ -6,19 +6,19 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         Database database = new Database();
-        if (database.open()) {
-            List<Meal> mealsToAdd = new ArrayList<>();
-            mealsToAdd.add(new Meal("Asian Gnocchi", "Gnocchi with tofu and broccoli by Rozkoszny"));
-            mealsToAdd.add(new Meal("Eggplant Lasagne", "Lasagne with eggplant and ricotta cheese by Cookido"));
-            mealsToAdd.add(new Meal("Butter Chicken", "Butter chicken by Cookido"));
-            mealsToAdd.add(new Meal("Korean Tofu", "Rice with tofu and broccoli by Cookido"));
-            mealsToAdd.add(new Meal("Cream Cheese Crepes", "Fried crepes with cream cheese"));
-            mealsToAdd.add(new Meal("Quesadilla", "Quesadilla with tomato sauce, mushrooms and corn"));
-            mealsToAdd.add(new Meal("Gnocchi Salad", "Gnocchi with pesto, mozzarella and tomatoes"));
-            mealsToAdd.add(new Meal("Vegetable Salad", "Vegetable salad with red pepper, cucumber and feta cheese"));
-            mealsToAdd.add(new Meal("Spring Rolls", "Spring rolls with tofu, cucumber and pepper"));
-            mealsToAdd.add(new Meal("Classic Lunch", "Potatoes, cucumber salad and a veggie schnitzel"));
-            mealsToAdd.add(new Meal("Mascarpone Pasta", "Pasta with mascarpone cheese, dried tomatoes, spinach and optionally bacon"));
+//        if (database.open()) {
+//            List<Meal> mealsToAdd = new ArrayList<>();
+//            mealsToAdd.add(new Meal("Asian Gnocchi", "Gnocchi with tofu and broccoli by Rozkoszny"));
+//            mealsToAdd.add(new Meal("Eggplant Lasagne", "Lasagne with eggplant and ricotta cheese by Cookido"));
+//            mealsToAdd.add(new Meal("Butter Chicken", "Butter chicken by Cookido"));
+//            mealsToAdd.add(new Meal("Korean Tofu", "Rice with tofu and broccoli by Cookido"));
+//            mealsToAdd.add(new Meal("Cream Cheese Crepes", "Fried crepes with cream cheese"));
+//            mealsToAdd.add(new Meal("Quesadilla", "Quesadilla with tomato sauce, mushrooms and corn"));
+//            mealsToAdd.add(new Meal("Gnocchi Salad", "Gnocchi with pesto, mozzarella and tomatoes"));
+//            mealsToAdd.add(new Meal("Vegetable Salad", "Vegetable salad with red pepper, cucumber and feta cheese"));
+//            mealsToAdd.add(new Meal("Spring Rolls", "Spring rolls with tofu, cucumber and pepper"));
+//            mealsToAdd.add(new Meal("Classic Lunch", "Potatoes, cucumber salad and a veggie schnitzel"));
+//            mealsToAdd.add(new Meal("Mascarpone Pasta", "Pasta with mascarpone cheese, dried tomatoes, spinach and optionally bacon"));
 
 //            for (Meal meal : mealsToAdd) {
 //                boolean success = database.addMeal(meal);
