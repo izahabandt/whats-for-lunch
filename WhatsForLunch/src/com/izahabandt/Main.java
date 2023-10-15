@@ -1,12 +1,11 @@
 package com.izahabandt;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
         Database database = new Database();
-//        if (database.open()) {
+             if (database.open()) {
 //            List<Meal> mealsToAdd = new ArrayList<>();
 //            mealsToAdd.add(new Meal("Asian Gnocchi", "Gnocchi with tofu and broccoli by Rozkoszny"));
 //            mealsToAdd.add(new Meal("Eggplant Lasagne", "Lasagne with eggplant and ricotta cheese by Cookido"));
@@ -49,4 +48,6 @@ public class Main {
             System.out.println("Unable to connect to the database.");
         }
     }
+
 }
+

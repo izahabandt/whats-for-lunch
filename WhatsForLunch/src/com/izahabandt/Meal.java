@@ -6,16 +6,17 @@ public class Meal {
         this.description = description;
     }
 
-    private int id;
+    private int _id;
     private String name;
     private String description;
 
+
     public int getId() {
-        return id;
+        return _id;
     }
 
     public void setId(int id) {
-        this.id = id;
+        this._id = id;
     }
 
     public String getName() {

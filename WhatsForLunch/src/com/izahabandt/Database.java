@@ -53,7 +53,7 @@ public class Database {
                         resultSet.getString("name"),
                         resultSet.getString("description")
                 );
-                meal.setId(resultSet.getInt("id"));
+                meal.setId(resultSet.getInt("_id"));
                 meals.add(meal);
             }
 
